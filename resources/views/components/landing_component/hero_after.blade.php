@@ -8,6 +8,6 @@
         <p class="text-center mb-0 text-white">Welcome to</p>
         <h1 class="text-center m-0 text-white fw-bold">{{ $appName }}</h1>
         <p class="m-0 text-center text-white mb-3" style="width: 60vw">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        <a href="{{ route('login') }}" class="btn btn-success me-3" style="width: 170px">Go To Dashboard</a>
+        <a href="{{ route('network-status') }}" class="btn btn-success me-3" style="width: 170px">Go To Dashboard</a>
     </div>
 </div>
