@@ -10,11 +10,11 @@ use App\Http\Controllers\ChaincodeController;
 
 // Landing Page
 Route::get('/', function () {
-    return view('home', ['title' => 'Home Page', 'appName' => 'HEALTHKATHON']);
+    return view('home', ['title' => 'Home Page', 'appName' => 'HEALTHLINK']);
 })->name('home');
 
 Route::get('/home', function () {
-    return view('home_after', ['title' => 'Home Page', 'appName' => 'HEALTHKATHON']);
+    return view('home_after', ['title' => 'Home Page', 'appName' => 'HEALTHLINK']);
 })->name('home-after');
 
 Route::get('/login', [AuthController::class, 'loginView'])->name('login');

@@ -1,8 +1,9 @@
 <div class="d-flex flex-column m-0" style="width: 17vw; height: 100vh; border-right: #1a202c solid 1px; background: forestgreen; position: fixed;">
     <div style="height: 80vh">
         <div class="d-flex align-items-center pt-3 pb-2 mb-3 border-bottom">
+            <img src="{{ asset('image/HealthLink.png') }}" alt="Healthkathon Logo" style="margin-left: 10px; height: 40px; width: 40px; padding: 0; object-fit: cover;">
             <a href="{{ route('home-after') }}" class="d-flex align-items-center text-decoration-none">
-                <h3 class="fw-semibold ps-3 text-white">HEALTHKATHON</h3>
+                <h5 class="fw-semibold ps-2 text-white">HEALTHKATHON</h5>
             </a>
         </div>
 

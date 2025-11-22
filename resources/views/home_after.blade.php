@@ -12,6 +12,12 @@
 
 @include('components.landing_component.about_us')
 
+@include('components.landing_component.features')
+
+@include('components.landing_component.contact')
+
+@include('components.landing_component.footer')
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
